@@ -196,9 +196,21 @@ button {
     margin-bottom: 10px;
 }
 
-@media (max-width: 768px){
-}
-
-@media (max-width: 375px){
-
+@media screen and (max-widht: 768px){
+    .container{
+       widht: 100%;
+    }
+    header h1{
+       Text-align: center;
+       float: none;
+    }
+    header ul {
+        Text-align: center;
+        float: none;
+    }
+    .box .col-4 {
+        widht: 100%;
+        float: none;
+        margin-botom: 20px;
+    }
 }
